@@ -83,29 +83,29 @@
 // })
 
 
-// const wrapper = document.querySelector('.btn-block')
-// const btns = document.querySelectorAll('button')
-//     btns[3].classList.add('red')
-//     btns[0].addEventListener('click', () => {
-//         btns[1].classList.toggle('green')
-//     })
-// wrapper.addEventListener('click', (event) =>{
-//     if(event.target && event.target.matches('button.green')){
-//         console.log('Yashil rang bosilsa');
-//     }
-//     if(event.target && event.target.matches('button.red')){
-//         console.log('Qizil bosilsa');
-//     }
-// })
+const wrapper = document.querySelector('.btn-block')
+const btns = document.querySelectorAll('button')
+    btns[3].classList.add('red')
+    btns[0].addEventListener('click', () => {
+        btns[1].classList.toggle('green')
+    })
+wrapper.addEventListener('click', (event) =>{
+    if(event.target && event.target.matches('button.green')){
+        console.log('Yashil rang bosilsa');
+    }
+    if(event.target && event.target.matches('button.red')){
+        console.log('Qizil bosilsa');
+    }
+})
     // btns.forEach((item) => {
     //     item.addEventListener('click', () =>{
     //         console.log('bosildi');
         
     //     })
     // });
-// const yangiButton = document.createElement('button')
-// yangiButton.classList.add('green')
-// wrapper.append(yangiButton)
+const yangiButton = document.createElement('button')
+yangiButton.classList.add('green')
+wrapper.append(yangiButton)
 
 
 
